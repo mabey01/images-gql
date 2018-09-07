@@ -1,0 +1,33 @@
+{
+  "name": "images-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha tests/**/*.test.js --watch"
+  },
+  "dependencies": {
+    "apollo-server": "^2.0.5",
+    "chai": "^4.1.2",
+    "exifreader": "^2.5.0",
+    "exiftool-vendored": "^6.1.2",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "fs-extra": "^7.0.0",
+    "graphql": "^0.13.2",
+    "jest": "^23.5.0",
+    "nedb": "^1.8.0",
+    "nedb-promise": "^2.0.1",
+    "nedb-promises": "^3.0.1",
+    "promisepipe": "^3.0.0",
+    "sharp": "^0.20.7"
+  },
+  "resolutions": {
+    "graphql": "^0.13.2",
+    "**/graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
