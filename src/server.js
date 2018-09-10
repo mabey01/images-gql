@@ -117,4 +117,4 @@ fileServer.all('*', (req, res) => {
 });
 
 const port = 3000;
-fileServer.listen(port, () => (`🚀  File Server ready at ${url}`));
+fileServer.listen(port, () => (`🚀  File Server ready at ${port}`));
