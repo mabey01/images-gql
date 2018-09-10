@@ -16,7 +16,6 @@ brew install yarn --without-node
 ```
 
 ## Getting Started
-To get started install node >=10 and yarn
 ```
 yarn && yarn start
 ```
